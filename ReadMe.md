@@ -5,7 +5,7 @@ This project is proposed by **Udacity** for **Front End Web Developer** students
 This project requires the use of HTML and CSS skills to create a personal blog site, including custom images, layout and design. Besides the design considerations of the web pages, the files are appropriately structured, and appropriate CSS and HTML formatting and style used.
 
 ## The subject of the project
-![Brest Cancer](/image/ribbon.png)
+
 **Breast cancer** was chosen as a main topic for this blog because of its spread and its classification globally as an advanced category among all types of cancer. May God bless us and protect us.
 
 ## About the Blog
