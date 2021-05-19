@@ -12,6 +12,6 @@ This project requires the use of HTML and CSS skills to create a personal blog s
 The blog contains four pages:
 
 1. ### Home.html
-2. ### news.html
-3. ### blogPost.html
+2. ### BlogPost.html
+3. ### AboutProject.html
 4. ### Sign.html
