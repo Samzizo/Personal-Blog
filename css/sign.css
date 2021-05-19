@@ -9,12 +9,11 @@ body {
     font-family: sans-serif;
 }
 
-
 .box {
     position: relative;
     width: 385px;
     height: 430px;
-    background: #ff9999;
+    background: #f99;
     margin: 70px auto;
     padding: 40px;
     border-radius: 10px;
@@ -84,6 +83,7 @@ body {
 .box .mid a {
     color: #000;
 }
+
 .box .mid a:hover {
     color: #4d001f;
 }
@@ -94,11 +94,17 @@ body {
     background: #4d001f;
     padding: 14px;
     border: none;
+    border-radius: 15px;
+    box-shadow: 10px 15px 25px #4d0026;
     margin: 20px;
     margin-top: 15px;
     font-size: 27px;
     cursor: pointer;
     color: #fff;
+}
+
+.box .mid .sub:hover {
+    background-color:#410404;
 }
 
 .bottom {
@@ -111,16 +117,17 @@ body {
     line-height: 50px;
     color: #000;
 }
+
 .bottom a:hover {
     color: #4d001f;
 }
 
 .bottom i {
-    display: inline-block;
+    display: flex;
     width: 60px;
     height: 60px;
     line-height: 60px;
-    text-align: center;
+    justify-content: center;
     color: #000;
     background: #ffffff6b;
     float: right;
@@ -129,22 +136,25 @@ body {
 
 .bottom i:hover {
     background: #4d001f;
+    color:#fff;
 }
+
 .bottom a {
     color: #fff;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ff9999;
+    background-color: #f99;
 }
-  
+
 li {
     float: left;
 }
-  
+
 li a {
     display: block;
     color: #fff;
@@ -152,12 +162,15 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-  
-  /* Change the link color to #111 (black) on hover */
+
 li a:hover {
     background-color: #4d001f;
 }
 
 #sn {
     color:#000;
+}
+
+#sn:hover {
+    color: #4d001f;
 }

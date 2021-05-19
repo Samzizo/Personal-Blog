@@ -1,10 +1,11 @@
-
 .navbar {
+    display: flex;
     width: 95%;
     height: 100%;
     background-color: #ffb3b3;
     border-radius: 10px;
 }
+
 ul {
     list-style-type: none;
     width: 100%;
@@ -14,11 +15,11 @@ ul {
     background-color: #ffb3b3;
     border-radius: 10px;
 }
-      
+
 li {
     float: left;
 }
-      
+
 li a {
     display: block;
     color: #000;
@@ -28,22 +29,22 @@ li a {
     font-size: 16px;
     font-family: 'Cinzel Decorative', cursive
 }
-      
+
 li a:hover:not(.active) {
     background-color: #4d001f;
     color: #fff;
 }
-      
+
 .active {
     background-color: #4d001f;
     font-size: 16px;
     color: #fff;
 }
-    
+
 .active:hover {
     color: #7c586c;
 }
-    
+
 .avatar {
     width: 30px;
     height: 30px;
@@ -51,11 +52,21 @@ li a:hover:not(.active) {
     border-radius: 5px;
 }
 
+.right {
+    float: right;
+}
+
+.sid {
+    padding: 10px;
+}
+
 @media(min-width: 600px) and (max-width: 900px){
     .navbar {
+        display: flex;
         width: 100%;
-        box-shadow: 0 30px 45px #944444;
+        box-shadow: 0 30px 45px #944;
     }
+
     ul {
         list-style-type: none;
         width: 100%;
@@ -65,11 +76,11 @@ li a:hover:not(.active) {
         background-color: #ffb3b3;
         border-radius: 10px;
     }
-      
+
     li {
         float: left;
     }
-      
+
     li a {
         display: block;
         color: #000;
@@ -79,27 +90,26 @@ li a:hover:not(.active) {
         font-size: 16px;
         font-family: 'Cinzel Decorative', cursive
     }
-      
+
     li a:hover:not(.active) {
         background-color: #4d001f;
         color: #fff;
     }
-      
+
     .active {
         background-color: #4d001f;
         font-size: 16px;
         color: #fff;
-    
     }
 
     .right {
         float: right;
     }
-    
+
     .active:hover {
         color: #7c586c;
     }
-    
+
     .avatar {
         width: 20px;
         height: 20px;
@@ -110,10 +120,12 @@ li a:hover:not(.active) {
 
 @media(min-width: 901px){
     .navbar {
+        display: flex;
         width: 95%;
         background-color: #ffb3b3;
         border-radius: 10px;
     }
+
     ul {
         list-style-type: none;
         width: 100%;
@@ -123,11 +135,11 @@ li a:hover:not(.active) {
         background-color: #ffb3b3;
         border-radius: 10px;
     }
-      
+
     li {
         float: left;
     }
-      
+
     li a {
         display: block;
         color: #000;
@@ -137,26 +149,30 @@ li a:hover:not(.active) {
         font-size: 25px;
         font-family: 'Cinzel Decorative', cursive
     }
-      
+
     li a:hover:not(.active) {
         background-color: #4d001f;
         color: #fff;
     }
-      
+
     .active {
         background-color: #4d001f;
         font-size: 26px;
         color: #fff;
     }
-    
+
     .active:hover {
         color: #7c586c;
     }
-    
+
     .avatar {
         width: 30px;
         height: 30px;
         margin: 10px;
         border-radius: 5px;
+    }
+
+    .right {
+        float: right;
     }
 }

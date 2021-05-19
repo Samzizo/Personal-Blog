@@ -10,8 +10,9 @@ p {
 
 h1{
     font-family: 'Italianno', cursive;
-    font-size: 36px;
+    font-size: 30px;
 }
+
 ol li {
     padding: 25px;
     margin: 15px;
@@ -28,13 +29,14 @@ ol li:hover {
     background: #7c586c;
 }
 
-ol .facts li {
-    margin: 5px;
-    width: 200px;
+.facts li {
+    margin: 15px;
+    width: 150px;
     height: 100px;
+    font-size: 12px;
     justify-content: center;
     cursor: context-menu;
-    
+
 }
 
 .share{
@@ -66,11 +68,11 @@ article {
         font-size: 16px;
         color: #000;
     }
-    
+
     ol li:hover {
         background: #7c586c;
     }
-    
+
     .share li {
         margin: 5px;
         width: 50px;
@@ -78,13 +80,14 @@ article {
         font-size: 14px;
         justify-content: center;
         cursor: context-menu;
-        
+
     }
+
     h1 {
         font-size: 16px;
         font-family: 'Cinzel Decorative', cursive;
     }
-    
+
     .side h1 {
         font-size: 12px;
         font-family: 'Cinzel Decorative', cursive;
@@ -93,7 +96,7 @@ article {
     .facts li {
         font-size: 12px;
         width: 100px;
-    
+        height: 170px;
     }
 }
 
@@ -102,11 +105,12 @@ article {
         font-size: 25px;
         font-family: 'EB Garamond', serif;
     }
-    
+
     h1{
         font-family: 'Italianno', cursive;
         font-size: 36px;
     }
+
     ol li {
         padding: 15px;
         margin: 12px;
@@ -114,36 +118,37 @@ article {
         font-size: 18px;
         background: #ff8080;
         box-shadow: 0 35px 50px #f89e9e;
+        justify-content: center;
         border-radius: 5px;
         font-size: 16px;
         color: #000;
     }
-    
+
     ol li:hover {
         background: #7c586c;
     }
-    
-    ol .facts li {
-        margin: 5px;
-        width: 200px;
-        height: 100px;
+
+    .facts li {
+        margin: 10px;
+        width: 100px;
+        height: 310px;
         justify-content: center;
         cursor: context-menu;
-        
+        font-size: 16px;
     }
-    
+
     .share{
         font-size: 30px;
     }
-    
+
     em {
         font-size: 20px;
     }
-    
+
     article {
         justify-content: center;
     }
-    
+
     .content h1 {
         text-align: center;
     }

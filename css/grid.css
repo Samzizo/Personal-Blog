@@ -12,7 +12,7 @@
         "main"
         "ft";
     }
-    
+
     .nestedGrid{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -30,7 +30,6 @@
         border-radius: 10px;
         color: #000;
     }
-    
 }
 
 @media(min-width: 600px) and (max-width: 900px){
@@ -41,12 +40,12 @@
         grid-template-columns: 150px 250px 100px;
         grid-template-rows: 95px 800px 70px;
         grid-gap: 10px;
-        grid-template-areas: 
+        grid-template-areas:
         "hd hd hd hd hd hd hd hd"
         "sd main main main main main main main"
         "ft ft ft ft ft ft ft ft";
     }
-    
+
     .nestedGrid{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -63,15 +62,15 @@
         grid-template-columns: 300px 550px 100px;
         grid-template-rows: 90px 800px 100px;
         grid-gap: 10px;
-        grid-template-areas: 
+        grid-template-areas:
         "hd hd hd hd hd hd hd hd"
         "sd main main main main main main main"
         "ft ft ft ft ft ft ft ft";
     }
-    
+
     .nestedGrid{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
     }
-} 
+}

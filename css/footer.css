@@ -38,7 +38,7 @@
         color: #fff;
         font-family: 'Cinzel Decorative', cursive
     }
-    
+
     .fake a {
         justify-content: space-between;
         font-size: 25px;
@@ -46,11 +46,11 @@
         margin: 25px;
         color: #fff;
     }
-    
+
     .fake a i {
         padding: 5px;
     }
-    
+
     .fake a:hover {
         cursor: pointer;
         background-color: #f89e9e;
