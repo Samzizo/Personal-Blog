@@ -94,28 +94,34 @@ article {
     }
 
     .facts li {
-        font-size: 12px;
+        font-size: 10.5px;
         width: 100px;
-        height: 170px;
+        height: 100px;
+        margin: 15px;
     }
 }
 
 @media(min-width: 901px){
     p {
-        font-size: 25px;
+        font-size: 18px;
         font-family: 'EB Garamond', serif;
     }
 
     h1{
         font-family: 'Italianno', cursive;
-        font-size: 36px;
+        font-size: 30px;
+    }
+
+    .capt {
+        width: 100px;
+        height: 150px;
     }
 
     ol li {
         padding: 15px;
         margin: 12px;
         width: 150px;
-        font-size: 18px;
+        font-size: 16px;
         background: #ff8080;
         box-shadow: 0 35px 50px #f89e9e;
         justify-content: center;
@@ -131,10 +137,10 @@ article {
     .facts li {
         margin: 10px;
         width: 100px;
-        height: 310px;
+        height: 250px;
         justify-content: center;
         cursor: context-menu;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .share{
@@ -151,6 +157,9 @@ article {
 
     .content h1 {
         text-align: center;
+    }
+    .capt {
+        width: 200px;
     }
 }
 
