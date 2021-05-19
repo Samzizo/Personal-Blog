@@ -1,0 +1,163 @@
+@import url(nav.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffcccc;
+    background-size: cover;
+    height: 660px;
+    font-family: sans-serif;
+}
+
+
+.box {
+    position: relative;
+    width: 385px;
+    height: 430px;
+    background: #ff9999;
+    margin: 70px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 35px 50px #f89e9e;
+
+}
+
+.header {
+    grid-area:hd;
+    font-size: 20px;
+    width: 95%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+
+.box h1 {
+    margin-top: 0;
+    margin-bottom: 45px;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+}
+
+.box .input-box .content {
+    position: relative;
+}
+
+.box .content label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #000;
+    font-size: 19px;
+}
+
+.box .content i {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    color: #000;
+    font-size: 22px;
+}
+
+.box .input-box input {
+    display: block;
+    background: none;
+    border: none;
+    width: 50%;
+    border-bottom: 1px solid #fff;
+    padding:  10px 100px;
+    margin-bottom: 35px;
+    color: #000;
+    font-size: 19px;
+}
+
+.box .input-box input:focus {
+    outline: none;
+    background: #38303594;
+}
+
+.box .mid {
+    color: #000;
+    font-size: 18px;
+}
+
+.box .mid a {
+    color: #000;
+}
+.box .mid a:hover {
+    color: #4d001f;
+}
+
+.box .mid .sub {
+    display: block;
+    width: 100%;
+    background: #4d001f;
+    padding: 14px;
+    border: none;
+    margin: 20px;
+    margin-top: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 91%;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    font-size: 19px;
+    line-height: 50px;
+    color: #000;
+}
+.bottom a:hover {
+    color: #4d001f;
+}
+
+.bottom i {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+    background: #ffffff6b;
+    float: right;
+    cursor: pointer;
+}
+
+.bottom i:hover {
+    background: #4d001f;
+}
+.bottom a {
+    color: #fff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff9999;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #4d001f;
+}
+
+#sn {
+    color:#000;
+}
